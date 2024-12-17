@@ -1,16 +1,29 @@
 export const workExperience = [
+
   {
-    icon: "M",
-    company: "MoonEX",
-    role: "React, Tailwind, JavaScript, typeScript, Vercel, Shadcn, GitHub",
+    icon: "V",
+    company: "V4Fluffy",
+    role: "React, Web3, Tailwind, JavaScript, typeScript, Solana, Shadcn",
     shortdesc:
       "",
-    desc: "This a DEX(decentralize exchange) landing page, done for moonex DEX showcasing proficiency in respective tech-stack.",
-    bgColor: "bg-red-600",
+    desc: "This a presale landing page, done as a interview task consist of solanawallet adapter and react components",
+    bgColor: "bg-teal-700",
     textColor: "text-white",
-    sourceCode: "https://github.com/Asta1984/stunning-sniffle.git",
-    webLink: "https://stunning-sniffle-two.vercel.app/",
-  },
+    sourceCode: "https://github.com/Asta1984/fluffy-octo-invention.git",
+    webLink: "https://fluffy-octo-invention-five.vercel.app/",
+  },  
+  {
+      icon: "M",
+      company: "MoonEX",
+      role: "React, Tailwind, JavaScript, typeScript, Vercel, Shadcn, GitHub",
+      shortdesc:
+        "",
+      desc: "This a DEX(decentralize exchange) landing page, done for moonex DEX showcasing proficiency in respective tech-stack.",
+      bgColor: "bg-red-600",
+      textColor: "text-white",
+      sourceCode: "https://github.com/Asta1984/stunning-sniffle.git",
+      webLink: "https://stunning-sniffle-two.vercel.app/",
+    },
     {
       icon: "A",
       company: "Allen Institute",
