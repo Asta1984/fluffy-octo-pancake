@@ -8,6 +8,11 @@ const config = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
 	],
+  safelist: [
+	  {
+		   pattern: /font-(OnlinePrivileges|Enterpriser|Typewriter)/,
+	  },
+	  ],
   prefix: "",
   theme: {
   	container: {
@@ -60,6 +65,12 @@ const config = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		fontFamily: {
+			sans: ['Inter', 'sans-serif'],
+			Enterpriser: ['Enterpriser'],
+			OnlinePrivileges: ['OnlinePrivileges'],
+			Typewriter: ['Typewriter'],
+		  },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

@@ -22,7 +22,7 @@ const ProfilePage = () => {
           <div className="space-y-6">
             {/* Header */}
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold leading-relaxed"><span className="text-blue-500">Salil Mandal</span><br /><span className="text-green-500">FullStack Engineer</span></h1>
+              <h1 className="text-3xl font-bold leading-relaxed"><span className="text-2xl sm:text-5xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-pink-600 md:mt-10">Salil Mandal</span><br /><span className="text-xl sm:text-3xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-700 to-green-700 md:mt-10">FullStack Engineer</span></h1>
               <div className="flex items-center text-gray-400">
                 {/* <div className="flex items-center gap-2">San Francisco, CA</div> */}
               </div>
@@ -58,7 +58,7 @@ const ProfilePage = () => {
 
 
             {/* Bio Sections */}
-            <div className="space-y-4 text-gray-400 text-sm md:text-base">
+            <div className="space-y-4 font-Typewriter text-gray-400 text-sm md:text-base">
               <p>
                 I&apos;m a tech enthusiast on a mission to innovate and solve real-world problems.
               </p>
@@ -76,7 +76,7 @@ const ProfilePage = () => {
 
             {/* Work Experience */}
             <div>
-              <h2 className="text-xl pt-10 font-semibold mb-4 text-white">Projects</h2>
+              <h2 className="text-xl pt-10 font-OnlinePrivileges mb-4 text-white">Projects</h2>
               <Accordion type="single" collapsible className="space-y-2">
                 {workExperience.map((work, index) => (
                   <AccordionItem
@@ -92,7 +92,7 @@ const ProfilePage = () => {
                           {work.icon}
                         </div>
                         <div className="flex flex-col items-start">
-                          <div className="font-semibold text-white">{work.company}</div>
+                          <div className="font-Enterpriser md:text-xl text-white text-xs">{work.company}</div>
                           {work.role && (
                             <div className="text-sm text-gray-400">{work.role}</div>
                           )}

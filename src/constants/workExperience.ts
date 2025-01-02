@@ -3,7 +3,7 @@ export const workExperience = [
   {
     icon: "V",
     company: "V4Fluffy",
-    role: "React, Web3, Tailwind, JavaScript, typeScript, Solana, Shadcn",
+    role: "React, Tailwind, typeScript, Solana",
     shortdesc:
       "",
     desc: "This a presale landing page, done as a interview task consist of solanawallet adapter and react components",
@@ -15,11 +15,11 @@ export const workExperience = [
   {
       icon: "M",
       company: "MoonEX",
-      role: "React, Tailwind, JavaScript, typeScript, Vercel, Shadcn, GitHub",
+      role: "React, Tailwind, typeScript, Shadcn",
       shortdesc:
         "",
       desc: "This a DEX(decentralize exchange) landing page, done for moonex DEX showcasing proficiency in respective tech-stack.",
-      bgColor: "bg-red-600",
+      bgColor: "bg-green-500",
       textColor: "text-white",
       sourceCode: "https://github.com/Asta1984/stunning-sniffle.git",
       webLink: "https://stunning-sniffle-two.vercel.app/",
@@ -62,10 +62,10 @@ export const workExperience = [
     {
       icon: "P",
       company: "Mordern Perodic table",
-      role: "HTML, CSS, Javascript, githubActions",
+      role: "HTML, CSS, Javascript",
       shortdesc: "My first web development project",
       desc: "The idea was simple I could not remember the periodic table at school which push me to learn web dev and built this project.",
-      bgColor: "bg-black",
+      bgColor: "bg-gray-400",
       textColor: "text-white",
       sourceCode: "https://github.com/Asta1984/Periodic-table.git",
       webLink: "https://asta1984.github.io/Periodic-table/",
