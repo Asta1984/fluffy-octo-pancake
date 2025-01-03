@@ -48,7 +48,7 @@ const ProfilePage = () => {
                 <Twitter className="w-5 h-5 text-gray-300" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/salil-mandal-3a73b1138/"
+                href="https://www.linkedin.com/in/salil-m-3a73b1138/"
                 className="p-2 rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
               >
                 <Linkedin className="w-5 h-5 text-gray-300" />
