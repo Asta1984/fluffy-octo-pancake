@@ -58,7 +58,7 @@ const ProfilePage = () => {
 
 
             {/* Bio Sections */}
-            <div className="space-y-4 font-Typewriter text-gray-400 text-sm md:text-base">
+            <div className="space-y-4 font-Typewriter text-gray-400 text-sm ">
               <p>
                 I&apos;m a tech enthusiast on a mission to innovate and solve real-world problems.
               </p>
@@ -92,7 +92,7 @@ const ProfilePage = () => {
                           {work.icon}
                         </div>
                         <div className="flex flex-col items-start">
-                          <div className="font-Enterpriser md:text-xl text-white text-xs">{work.company}</div>
+                          <div className="font-Enterpriser text-white text-xs">{work.company}</div>
                           {work.role && (
                             <div className="text-sm text-gray-400">{work.role}</div>
                           )}

@@ -84,7 +84,7 @@ export const workExperience = [
     {
       icon: "A",
       company: "Autonomous Bot",
-      role: "Embedded C, Data stuctures, Arduino",
+      role: "Embedded C, ROS2, SLAM",
       shortdesc: "An autonoumous navigating bot.",
       desc: "Developed and designed a bot capable of multi-terrain operation with 4 degree of freedom uses different sensor fusion to get surrounding data to create 3-D mappings.",
       bgColor: "bg-green-500",
@@ -95,7 +95,7 @@ export const workExperience = [
     {
       icon: "T",
       company: "Vehicle Side Profiling",
-      role: "Python, Flask, Networking Protocols",
+      role: "Python, UDP, Sensor-fusion",
       shortdesc: "Create side profiles of moving vehicles.",
       desc: "This project involved generation of side profile of vehicle while it's passing through a beam of sensor.",
       bgColor: "bg-red-600",

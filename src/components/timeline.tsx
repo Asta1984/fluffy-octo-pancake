@@ -107,20 +107,6 @@ export function TimelineDemo() {
               /> Masters in Technology (Data Science) School of Information technology, UTD
             </p>
             <div className="grid grid-cols-2 gap-4">
-              <Image
-                src="https://assets.aceternity.com/templates/startup-1.webp"
-                alt="startup template"
-                width={500}
-                height={500}
-                className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
-              />
-              <Image
-                src="https://assets.aceternity.com/templates/startup-2.webp"
-                alt="startup template"
-                width={500}
-                height={500}
-                className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
-              />
             </div>
           </div>
         ),
@@ -139,21 +125,28 @@ export function TimelineDemo() {
             </p>
             <div className="grid grid-cols-2 gap-4">
               <Image
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/slider.jpg"
                 alt="hero template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
               />
               <Image
-                src="https://assets.aceternity.com/features-section.png"
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/Screenshot_20240909-043401_Gallery.png"
                 alt="feature template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
               />
               <Image
-                src="https://assets.aceternity.com/pro/bento-grids.png"
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/IMG-20240812-WA0001.jpg"
+                alt="hero template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
+              />
+              <Image
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/tcam_mini_pi_3.png"
                 alt="bento template"
                 width={500}
                 height={500}
@@ -162,6 +155,20 @@ export function TimelineDemo() {
               <Image
                 src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/5.jpg"
                 alt="cards template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
+              />
+              <Image
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/IMG-20231116-WA0004.jpg"
+                alt="cards template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
+              />
+              <Image
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/buzzer.jpg"
+                alt="startup template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
@@ -199,14 +206,21 @@ export function TimelineDemo() {
                 className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
               />
               <Image
-                src="https://assets.aceternity.com/pro/bento-grids.png"
+                src="https://pub-d02e3aa7d09f4d5d9261e5d7e4bae228.r2.dev/bot.jpg"
                 alt="bento template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
               />
               <Image
-                src="https://assets.aceternity.com/cards.png"
+                src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/IMG-20240107-WA0002.jpg"
+                alt="cards template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] h-20 md:h-44 lg:h-auto lg:aspect-[16/9]"
+              />
+              <Image
+                src="https://pub-d02e3aa7d09f4d5d9261e5d7e4bae228.r2.dev/LedMatrix.jpg"
                 alt="cards template"
                 width={500}
                 height={500}
