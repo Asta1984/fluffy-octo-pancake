@@ -58,7 +58,7 @@ const ProfilePage = () => {
 
 
             {/* Bio Sections */}
-            <div className="space-y-4 font-Typewriter text-gray-400 text-sm ">
+            <div className="space-y-4 font-Typewriter text-gray-400 text-xs">
               <p>
                 I&apos;m a tech enthusiast on a mission to innovate and solve real-world problems.
               </p>
