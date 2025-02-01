@@ -4,6 +4,7 @@ import React from "react";
 import { Mail, Github, Twitter, Linkedin, ChevronDown } from "lucide-react";
 import RealisticLightspeedWarpDrive from '../components/realistic-lightspeed-warp-drive';
 import { TimelineDemo } from "../components/timeline";
+import { motion } from "framer-motion";
 import {
   Accordion,
   AccordionContent,
@@ -20,6 +21,7 @@ const ProfilePage = () => {
       <div className="relative z-10 min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
         <div className="max-w-2xl mx-auto py-16 px-7">
           <div className="space-y-6">
+
             {/* Header */}
             <div className="space-y-4">
               <h1 className="text-3xl font-bold leading-relaxed"><span className="text-2xl sm:text-5xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-pink-600 md:mt-10">Salil Mandal</span><br /><span className="text-xl sm:text-3xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-700 to-green-700 md:mt-10">FullStack Engineer</span></h1>
@@ -56,7 +58,13 @@ const ProfilePage = () => {
             </div>
           </div>
 
-
+          <motion.div
+            initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true, amount: 0.3 }} 
+            transition={{ duration: 1, ease: "easeOut" }}
+            exit={{ opacity: 0 }}
+          >
             {/* Bio Sections */}
             <div className="space-y-4 font-Typewriter text-gray-400 text-xs">
               <p>
@@ -73,10 +81,20 @@ const ProfilePage = () => {
                 You could reach out to me via email.
               </p>
             </div>
+            </motion.div>
+
 
             {/* Work Experience */}
+
             <div>
               <h2 className="text-xl pt-10 font-OnlinePrivileges mb-4 text-white">Projects</h2>
+              <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }} 
+              transition={{ duration: 1, ease: "easeOut" }}
+              exit={{ opacity: 0 }}
+              >
               <Accordion type="single" collapsible className="space-y-2">
                 {workExperience.map((work, index) => (
                   <AccordionItem
@@ -139,6 +157,8 @@ const ProfilePage = () => {
                   </AccordionItem>
                 ))}
               </Accordion>
+              </motion.div>
+
             </div>
           </div>
           <TimelineDemo />
