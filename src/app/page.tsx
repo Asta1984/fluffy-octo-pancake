@@ -61,7 +61,7 @@ const ProfilePage = () => {
           <motion.div
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: true, amount: 0.3 }} 
+            viewport={{ once: true, amount: 0.1 }} 
             transition={{ duration: 1, ease: "easeOut" }}
             exit={{ opacity: 0 }}
           >
@@ -88,15 +88,16 @@ const ProfilePage = () => {
 
             <div>
               <h2 className="text-xl pt-10 font-OnlinePrivileges mb-4 text-white">Projects</h2>
-              <motion.div
-              initial={{ y: 50, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }} 
-              transition={{ duration: 1, ease: "easeOut" }}
-              exit={{ opacity: 0 }}
-              >
+
               <Accordion type="single" collapsible className="space-y-2">
                 {workExperience.map((work, index) => (
+                  <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0 }} 
+              transition={{ duration: 0.1, ease: "easeOut" }}
+              exit={{ opacity: 0 }}
+              >
                   <AccordionItem
                     value={`item-${index}`}
                     key={index}
@@ -155,9 +156,10 @@ const ProfilePage = () => {
                       </div>
                     </AccordionContent>
                   </AccordionItem>
+                  </motion.div>
+
                 ))}
               </Accordion>
-              </motion.div>
 
             </div>
           </div>
