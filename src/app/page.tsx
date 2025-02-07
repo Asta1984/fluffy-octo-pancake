@@ -92,12 +92,12 @@ const ProfilePage = () => {
               <Accordion type="single" collapsible className="space-y-2">
                 {workExperience.map((work, index) => (
                   <motion.div
-              initial={{ y: 50, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true, amount: 0 }} 
-              transition={{ duration: 0.1, ease: "easeOut" }}
-              exit={{ opacity: 0 }}
-              >
+                    initial={{ y: 50, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    viewport={{ once: true, amount: 0 }} 
+                    transition={{ duration: 0.1, ease: "easeOut" }}
+                    exit={{ opacity: 0 }}
+                    >
                   <AccordionItem
                     value={`item-${index}`}
                     key={index}
@@ -157,7 +157,6 @@ const ProfilePage = () => {
                     </AccordionContent>
                   </AccordionItem>
                   </motion.div>
-
                 ))}
               </Accordion>
 
