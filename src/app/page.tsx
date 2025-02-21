@@ -92,6 +92,7 @@ const ProfilePage = () => {
               <Accordion type="single" collapsible className="space-y-2">
                 {workExperience.map((work, index) => (
                   <motion.div
+                    key = {index}
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: true, amount: 0 }} 
