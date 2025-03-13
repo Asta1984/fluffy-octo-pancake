@@ -1,6 +1,30 @@
 export const workExperience = [
 
   {
+    icon: "D",
+    company: "D-PAY",
+    role: "React, Tailwind, typeScript, Solana",
+    shortdesc:
+      "",
+    desc: "A payment gateway that enables the merchent to recieve payment though solana Blockchain in USDC irrespective of the token",
+    bgColor: "bg-cyan-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/verbose-eureka.git",
+    webLink: "https://verbose-eureka-two.vercel.app/",
+  },  
+    {
+    icon: "C",
+    company: "C L I N I K 360",
+    role: "React, Tailwind, typeScript, shadcn",
+    shortdesc:
+      "",
+    desc: "An plateform for the Doctors and Patient.",
+    bgColor: "bg-red-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/360clinikfrontendscaling-fiesta",
+    webLink: "https://360clinikfrontendscaling-fiesta-juzx.vercel.app/",
+  },  
+  {
     icon: "V",
     company: "V4Fluffy",
     role: "React, Tailwind, typeScript, Solana",
@@ -11,7 +35,7 @@ export const workExperience = [
     textColor: "text-white",
     sourceCode: "https://github.com/Asta1984/fluffy-octo-invention.git",
     webLink: "https://fluffy-octo-invention-five.vercel.app/",
-  },  
+  },
   {
       icon: "M",
       company: "MoonEX",
