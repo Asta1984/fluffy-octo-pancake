@@ -1,5 +1,28 @@
 export const workExperience = [
-
+  {
+    icon: "A",
+    company: "Punch-IN system",
+    role: "API-Gateway, Lambda, DynamoDB, S3",
+    shortdesc:
+      "",
+    desc: "A Full-stack web application to learn AWS serverless services such as lambda, API gateway etc. This is a simple application that enables punch in attendence and records the time and date of punch stores it on s3 bucket",
+    bgColor: "bg-blue-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/AWS-kiminarimas.git",
+    webLink: "https://aws-kiminarimas.vercel.app/",
+  },
+  {
+    icon: "P",
+    company: "Pokedex",
+    role: "React, typeScript, EC2, AXIOS ",
+    shortdesc:
+      "",
+    desc: "A Full-stack web application to view pokemon. Backend is hosted on EC2 with reverse proxy uning NGINX",
+    bgColor: "bg-purple-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/pokemon_super-engine.git",
+    webLink: "https://pokemon-super-engine.vercel.app/",
+  },
   {
     icon: "D",
     company: "D-PAY",
@@ -18,7 +41,7 @@ export const workExperience = [
     role: "React, Tailwind, typeScript, shadcn",
     shortdesc:
       "",
-    desc: "An plateform for the Doctors and Patient.",
+    desc: "An Full-stack plateform for the Doctors and Patient.",
     bgColor: "bg-red-700",
     textColor: "text-white",
     sourceCode: "https://github.com/Asta1984/360clinikfrontendscaling-fiesta",

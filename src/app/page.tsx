@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { Mail, Github, Twitter, Linkedin, ChevronDown } from "lucide-react";
+import { Mail, Github, Twitter, Linkedin, ChevronDown,  } from "lucide-react";
 import RealisticLightspeedWarpDrive from '../components/realistic-lightspeed-warp-drive';
 import { TimelineDemo } from "../components/timeline";
 import { motion } from "framer-motion";
@@ -26,7 +26,6 @@ const ProfilePage = () => {
             <div className="space-y-4">
               <h1 className="text-3xl font-bold leading-relaxed"><span className="text-2xl sm:text-5xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-pink-600 md:mt-10">Salil Mandal</span><br /><span className="text-xl sm:text-3xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-700 to-green-700 md:mt-10">FullStack Engineer</span></h1>
               <div className="flex items-center text-gray-400">
-                {/* <div className="flex items-center gap-2">San Francisco, CA</div> */}
               </div>
 
             {/* Social Links */}
@@ -66,7 +65,7 @@ const ProfilePage = () => {
             exit={{ opacity: 0 }}
           >
             {/* Bio Sections */}
-            <div className="space-y-4 font-Typewriter text-gray-400 text-xs">
+            <div className="space-y-4 font-Typewriter text-green-500 text-xs bg-slate-100/10 rounded-xl p-3">
               <p>
                 I&apos;m a tech enthusiast on a mission to innovate and solve real-world problems.
               </p>
@@ -112,9 +111,9 @@ const ProfilePage = () => {
                           {work.icon}
                         </div>
                         <div className="flex flex-col items-start">
-                          <div className="font-Enterpriser text-white text-xs">{work.company}</div>
+                          <div className="font-OnlinePrivileges text-white text-sm">{work.company}</div>
                           {work.role && (
-                            <div className="text-sm text-gray-400">{work.role}</div>
+                            <div className="text-xs text-gray-400 text-left ">{work.role}</div>
                           )}
                         </div>
                       </div>
