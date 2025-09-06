@@ -65,18 +65,26 @@ const ProfilePage = () => {
             exit={{ opacity: 0 }}
           >
             {/* Bio Sections */}
-            <div className="space-y-4 tracking-wider font-Typewriter text-green-500 text-xs bg-slate-100/10 rounded-xl p-3">
+            <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-slate-100/10 rounded-xl p-3">
               <p>
-                I&apos;m a software engineer experienced in building RESTful APIs.
+                I&apos;m a software Engineer with hands-on experience in building scalable, secure, 
+                and innovative applications across diverse domains. My technical expertise spans 
+                Python, JavaScript, TypeScript, React, Node.js, FastAPI, and Django REST Framework, 
+                where I’ve delivered high-impact solutions in AI, cloud-native systems, and Web3.
               </p>
               <p>
-                I&apos;ve developed a algorithm used in signal processing pipeline of LIDAR unit. 
-                With a background in Automobile Engineering, I taught myself coding, design, and system architecture. 
-                I have a professional experience of 2+ years in backend scripting, low-level programming and machine learning.
+                I&apos;ve I have worked on projects ranging from LiDAR-based vehicle classification
+                 systems to LLM-powered chatbots, healthcare platforms, crypto presale applications, 
+                 and real-time attendance management systems. Along the way, I’ve gained strong 
+                 proficiency in AWS (Lambda, API Gateway, DynamoDB, EC2, S3), Docker, Kubernetes, 
+                 Terraform, PostgreSQL, MongoDB, Redis, and Firebase, enabling me to architect 
+                 end-to-end solutions with scalability in mind.
               </p>
 
               <p>
-                Crafting autonomous bots, machine learning projects and Product development interests me.
+                Beyond development, I enjoy experimenting with LLM APIs, AI/ML models, 
+                and automation tools like N8N, Zapier, and AI Agents to create smarter 
+                workflows.
                 You could reach out to me via email.
               </p>
             </div>
