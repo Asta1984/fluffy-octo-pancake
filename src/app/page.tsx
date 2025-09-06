@@ -65,14 +65,14 @@ const ProfilePage = () => {
             exit={{ opacity: 0 }}
           >
             {/* Bio Sections */}
-            <div className="space-y-4 font-Typewriter text-green-500 text-xs bg-slate-100/10 rounded-xl p-3">
+            <div className="space-y-4 tracking-wider font-Typewriter text-green-500 text-xs bg-slate-100/10 rounded-xl p-3">
               <p>
-                I&apos;m a tech enthusiast on a mission to innovate and solve real-world problems.
+                I&apos;m a software engineer experienced in building RESTful APIs.
               </p>
               <p>
-                I&apos;ve independently developed a algorithm used in signal processing pipeline for decording signal for LIDAR unit. 
+                I&apos;ve developed a algorithm used in signal processing pipeline of LIDAR unit. 
                 With a background in Automobile Engineering, I taught myself coding, design, and system architecture. 
-                I have a strong background in web development, low-level programming languages, and machine learning.
+                I have a professional experience of 2+ years in backend scripting, low-level programming and machine learning.
               </p>
 
               <p>

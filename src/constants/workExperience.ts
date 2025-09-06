@@ -1,5 +1,18 @@
 export const workExperience = [
-  {
+  
+      {
+    icon: "H",
+    company: "RAG-ChatBOT",
+    role: "FASTAPI, NLTK, Ollama, PineconeDB, streamlitapp",
+    shortdesc:
+      "",
+    desc: "A RAG based chatbot to help users navigate and resolve queries related to singapore changi Airport.",
+    bgColor: "bg-violet-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/hipster-upgraded-funicular.git",
+    webLink: "https://changichatairport.streamlit.app/",
+      },
+      {
     icon: "A",
     company: "Punch-IN system",
     role: "API-Gateway, Lambda, DynamoDB, S3",
