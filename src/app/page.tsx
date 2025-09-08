@@ -29,28 +29,28 @@ const ProfilePage = () => {
               </div>
 
             {/* Social Links */}
-              <div className="flex gap-2">
+              <div className="flex gap-2 ">
               <Link
                 href="mailto:salilmandal908@gmail.com"
-                className="p-2 rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
+                className="p-2 rounded-md hover:bg-gray-900 border bg-gray-950 transition-colors duration-200"
               >
                 <Mail className="w-5 h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://github.com/Asta1984"
-                className="p-2 rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
+                className="p-2 border rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
               >
                 <Github className="w-5 h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://x.com/mandal_sal88300"
-                className="p-2 rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
+                className="p-2 border rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
               >
                 <Twitter className="w-5 h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/salil-m-3a73b1138/"
-                className="p-2 rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
+                className="p-2 border rounded-md hover:bg-gray-900 bg-gray-950 transition-colors duration-200"
               >
                 <Linkedin className="w-5 h-5 text-gray-300" />
               </Link>
@@ -65,7 +65,7 @@ const ProfilePage = () => {
             exit={{ opacity: 0 }}
           >
             {/* Bio Sections */}
-            <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-slate-100/10 rounded-xl p-3">
+            <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-gray-950 bg-opacity-75 border rounded-xl p-5">
               <p>
                 I&apos;m a software Engineer with hands-on experience in building scalable, secure, 
                 and innovative applications across diverse domains. My technical expertise spans 
@@ -109,7 +109,7 @@ const ProfilePage = () => {
                   <AccordionItem
                     value={`item-${index}`}
                     key={index}
-                    className="border border-gray-800 rounded-lg bg-gray-950"
+                    className="border border-gray-800 rounded-lg bg-gray-950 bg-opacity-75"
                   >
                     <AccordionTrigger className="hover:no-underline px-4">
                       <div className="flex items-center gap-4">

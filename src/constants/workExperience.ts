@@ -1,6 +1,18 @@
 export const workExperience = [
   
-      {
+    {
+      icon: "S",
+      company: "Sewantika",
+      role: "React, Shadcn, Typescript, tailwind",
+      shortdesc:
+        "Landing page for a project",
+      desc: " A holistic solution for all problemn related to complete product developemt from ideation, curation, fabrication to market delivery.",
+      bgColor: "bg-red-900",
+      textColor: "text-white",
+      sourceCode: "",
+      webLink: "https://demosaas-crispy-guacamole-git-feb-update-salilmandals-projects.vercel.app/",
+    },  
+    {
     icon: "H",
     company: "RAG-ChatBOT",
     role: "FASTAPI, NLTK, Ollama, PineconeDB, streamlitapp",
@@ -94,19 +106,7 @@ export const workExperience = [
       bgColor: "bg-orange-600",
       textColor: "text-white",
       sourceCode: "https://github.com/Asta1984/probable-guacamole.git",
-      webLink: "https://allen.sewantika.com/",
-    },
-    {
-      icon: "S",
-      company: "Sewantika",
-      role: "Javascript, Ejs, DoM , SCSS",
-      shortdesc:
-        "Landing page for a project",
-      desc: " A holistic solution for all problemn related to complete product developemt from ideation, curation, fabrication to market delivery.",
-      bgColor: "bg-purple-600",
-      textColor: "text-white",
-      sourceCode: "",
-      webLink: "https://www.sewantika.com/",
+      webLink: "https://probable-guacamole.vercel.app/",
     },
     {
       icon: "I",
@@ -161,6 +161,6 @@ export const workExperience = [
       bgColor: "bg-red-600",
       textColor: "text-white",
       sourceCode: "",
-      webLink: "https://portfolio-website-five-amber.vercel.app/#portfolio",
+      webLink: "",
     },
   ];
