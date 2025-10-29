@@ -102,8 +102,8 @@ export function TimelineDemo() {
               <Image
                 src="/cybrom.png"
                 alt="cybrom Logo"
-                width={200}
-                height={100}
+                width={100}
+                height={50}
               />Artificial Intelligence Trainer at Cybrom technology Pvt Ltd.
             </p>
             <div className="grid grid-cols-2 gap-4">
