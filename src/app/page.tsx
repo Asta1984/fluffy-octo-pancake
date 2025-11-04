@@ -1,10 +1,11 @@
 "use client"
 
 import React from "react";
-import { Mail, Github, Twitter, Linkedin, ChevronDown,  } from "lucide-react";
+import { Mail, Github, Twitter, Linkedin, ChevronDown, } from "lucide-react";
 import RealisticLightspeedWarpDrive from '../components/realistic-lightspeed-warp-drive';
 import { TimelineDemo } from "../components/timeline";
 import { motion } from "framer-motion";
+import { AnimatedText } from "@/components/AnimatedText";
 import {
   Accordion,
   AccordionContent,
@@ -171,6 +172,9 @@ const ProfilePage = () => {
             </div>
           </div>
           <TimelineDemo />
+        </div>
+        <div>
+          <AnimatedText text="Salil Mandal"/>
         </div>
       </div>
     </div>
