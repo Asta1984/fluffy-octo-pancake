@@ -23,13 +23,13 @@ export function AnimatedText({ text, className = '' }: AnimatedTextProps) {
     >
       {/* Background text */}
 
-            <text
+        <text
         x="50%"
-        y="-70%"
+        y="30%"
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.4"
-        className="font-bold fill-transparent text-4xl stroke-primary"
+        className="font-bold fill-transparent text-6xl stroke-primary"
         strokeDasharray="1000"
         strokeDashoffset="0"
       >
