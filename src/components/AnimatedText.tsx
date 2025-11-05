@@ -25,11 +25,11 @@ export function AnimatedText({ text, className = '' }: AnimatedTextProps) {
 
         <text
         x="50%"
-        y="30%"
+        y="40%"
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.4"
-        className="font-bold fill-transparent text-6xl stroke-primary"
+        className="font-OnlinePrivileges fill-transparent text-2xl stroke-primary"
         strokeDasharray="1000"
         strokeDashoffset="0"
       >
@@ -49,7 +49,7 @@ export function AnimatedText({ text, className = '' }: AnimatedTextProps) {
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-bold stroke-accent fill-transparent text-4xl"
+        className="font-OnlinePrivileges stroke-accent fill-transparent text-xl"
       >
         {text}
         <animate
