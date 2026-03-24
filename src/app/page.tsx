@@ -14,10 +14,15 @@ import {
 } from "@/components/ui/accordion"
 import Link from "next/link"
 import { workExperience } from "@/constants/workExperience"
+import Image from "next/image";
 
 const ProfilePage = () => {
   return (
-    <div className="relative min-h-screen">
+    <>
+    <div className="relative z-10">
+      <Image src = "/ever.png" alt = "Top" width={1400} height={100}/>
+    </div>
+    <div className="relative min-h-screen"> 
       <RealisticLightspeedWarpDrive />
       <div className="relative z-10 min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
         <div className="max-w-2xl mx-auto py-16 px-7">
@@ -25,7 +30,10 @@ const ProfilePage = () => {
 
             {/* Header */}
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold leading-relaxed"><span className="text-2xl sm:text-5xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-secondary md:mt-10">Salil Mandal</span><br /><span className="text-xl sm:text-3xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-700 to-green-700 md:mt-10">FullStack Software Engineer</span></h1>
+              <h1 className="text-3xl font-bold leading-relaxed">
+                <span className="text-xl sm:text-3xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-700 to-green-700 md:mt-10">Salil Mandal
+                  </span><br /><span className="text-2xl sm:text-3xl font-OnlinePrivileges mb-6 bg-clip-text text-transparent bg-secondary md:mt-10">
+                    FullStack Software Engineer</span></h1>
               <div className="flex items-center text-gray-400">
               </div>
 
@@ -178,6 +186,10 @@ const ProfilePage = () => {
         </div>
       </div>
     </div>
+        <div className="relative z-10">
+      <Image src = "/foot.png" alt = "bottom" width={1400} height={640}/>
+    </div>
+    </>
   )
 }
 
