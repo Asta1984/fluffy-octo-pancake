@@ -14,17 +14,15 @@ import {
 } from "@/components/ui/accordion"
 import Link from "next/link"
 import { workExperience } from "@/constants/workExperience"
-import Image from "next/image";
-
 const ProfilePage = () => {
   return (
     <>
-    <div className="relative z-10">
-      <Image src = "/ever.png" alt = "Top" width={1400} height={100}/>
+    <div className="relative z-30 max-h-full">
+      <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png" className="z-30"></img>
     </div>
     <div className="relative min-h-screen"> 
       <RealisticLightspeedWarpDrive />
-      <div className="relative z-10 min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
+      <div className="relative min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
         <div className="max-w-2xl mx-auto py-16 px-7">
           <div className="space-y-6">
 
@@ -186,8 +184,8 @@ const ProfilePage = () => {
         </div>
       </div>
     </div>
-        <div className="relative z-10">
-      <Image src = "/foot.png" alt = "bottom" width={1400} height={640}/>
+    <div className="relative z-30 max-h-full">
+      <img src = "https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/foot.png"></img>
     </div>
     </>
   )
