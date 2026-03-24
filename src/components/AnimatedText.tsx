@@ -10,8 +10,8 @@ export function AnimatedText({ text, className = '' }: AnimatedTextProps) {
     <motion.div
     initial={{ y: 0, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}
-    viewport={{ once: false, amount: 0.9 }} 
-    transition={{ duration: 3, ease: "easeOut" }}
+    viewport={{ once: false, amount: 0.3 }} 
+    transition={{ duration: 90, ease:"circIn"}}
     exit={{ opacity: 1 }}
   >
     <svg
@@ -25,37 +25,39 @@ export function AnimatedText({ text, className = '' }: AnimatedTextProps) {
 
         <text
         x="50%"
-        y="40%"
+        y="45%"
         textAnchor="middle"
         dominantBaseline="middle"
-        strokeWidth="0.4"
+        strokeWidth="0.7"
         className="font-OnlinePrivileges fill-transparent text-2xl stroke-primary"
         strokeDasharray="1000"
-        strokeDashoffset="0"
+        strokeDashoffset="1"
       >
         {text}
         <animate
           attributeName="stroke-dashoffset"
-          values="1000;0"
-          dur="20s"
+          values="1000;400"
+          dur="80s"
         />
       </text>
+
+      
       
       {/* Outline text */}
 
       <text
         x="50%"
-        y="50%"
+        y="60%"
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-OnlinePrivileges stroke-accent fill-transparent text-xl"
+        className="font-OnlinePrivileges stroke-accent fill-transparent text-3xl"
       >
         {text}
         <animate
           attributeName="opacity"
-          values="0;0.5"
-          dur="0.4s"
+          values="0;1"
+          dur="30s"
         />
       </text>
     </svg>
