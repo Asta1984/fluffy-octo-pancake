@@ -18,12 +18,15 @@ const ProfilePage = () => {
   return (
     <>
     <div className="relative z-10">
-      <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png" ></img>
-        <h1 className="absolute inset-0 top-1/3 text-center text-3xl font-bold leading-relaxed">
+      <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png" className="blur-sm"></img>
+      <div className="absolute inset-6 md:inset-11  h-11/12 w-11/12 ">
+        <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png" className="border-transparent bg-transparent rounded-md" ></img>
+        <h1 className="absolute inset-0 top-32 md:top-72 text-center text-3xl font-bold leading-relaxed">
         <span className="text-xl sm:text-5xl font-OnlinePrivileges mb-6 bg-clip-text bg-stone-600 md:mt-10">Hi! This is Salil..
         </span></h1>
+      </div>
     </div>
-    <div className="min-h-screen p-12"> 
+    <div className="min-h-screen p-8"> 
       <RealisticLightspeedWarpDrive />
       <div className="relative min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
         <div className=" mx-auto py-16 px-7">
@@ -183,25 +186,25 @@ const ProfilePage = () => {
                 href="mailto:salilmandal908@gmail.com"
                 className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Mail className="md:w-5 md:h-5  text-gray-300" />
+                <Mail className="w-3 h-3 md:w-5 md:h-5  text-gray-300" />
               </Link>
               <Link
                 href="https://github.com/Asta1984"
                 className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Github className="md:w-5 md:h-5 text-gray-300" />
+                <Github className="w-3 h-3 md:w-5 md:h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://x.com/mandal_sal88300"
                 className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Twitter className="md:w-5 md:h-5 text-gray-300" />
+                <Twitter className="w-3 h-3 md:w-5 md:h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/salil-m-3a73b1138/"
                 className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Linkedin className="md:w-5 md:h-5 text-gray-300" />
+                <Linkedin className="w-3 h-3 md:w-5 md:h-5 text-gray-300" />
               </Link>
             </div>
     </div>
