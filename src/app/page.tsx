@@ -19,8 +19,8 @@ const ProfilePage = () => {
     <>
     <div className="relative z-10">
       <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png"></ img>
-        <h1 className="absolute inset-0 top-32 md:top-72 text-center text-3xl font-bold leading-relaxed">
-        <span className="text-xl sm:text-5xl font-OnlinePrivileges md:mb-6 bg-clip-text bg-stone-600 md:mt-10">Hi! This is Salil..
+        <h1 className="absolute inset-0 top-24 md:top-72 text-center text-3xl font-bold leading-relaxed">
+        <span className="text-xl sm:text-5xl font-OnlinePrivileges md:mb-6 bg-clip-text bg-zinc-800 md:mt-10">Hi! This is Salil..
         </span></h1>
     </div>
     <div className="min-h-screen p-8"> 
@@ -178,7 +178,7 @@ const ProfilePage = () => {
       <AnimatedText text="Salil Mandal"/>
     <div className="relative md:bottom-0 md:max-h-full">
       <img src = "https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/foot.png"></img>
-      <div className="absolute top-2/4 left-auto p-6 md:top-3/4 md:left-3/4 md:p-4 inset-0 md:h-min flex gap-2">
+      <div className="md:absolute border-t-2 top-auto left-auto p-6 md:top-3/4 md:left-3/4 md:p-4 inset-0 md:h-min flex gap-2">
               <Link
                 href="mailto:salilmandal908@gmail.com"
                 className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
