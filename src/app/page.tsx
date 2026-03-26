@@ -176,9 +176,9 @@ const ProfilePage = () => {
         </div>
       </div>
       <AnimatedText text="Salil Mandal"/>
-    <div className="relative bottom-0 max-h-full">
+    <div className="relative md:bottom-0 md:max-h-full">
       <img src = "https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/foot.png"></img>
-      <div className="md:absolute top-3/4 left-3/4 p-4 inset-0 h-min  md:flex gap-2 ">
+      <div className="absolute top-auto left-auto p-10 md:top-3/4 md:left-3/4 md:p-4 inset-0 md:h-min flex gap-2 ">
               <Link 
                 href="mailto:salilmandal908@gmail.com"
                 className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
