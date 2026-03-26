@@ -19,8 +19,8 @@ const ProfilePage = () => {
     <>
     <div className="relative z-10">
       <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png"></ img>
-        <h1 className="absolute inset-0 top-24 md:top-72 text-center text-3xl font-bold leading-relaxed">
-        <span className="text-xl sm:text-5xl font-OnlinePrivileges md:mb-6 bg-clip-text bg-zinc-800 md:mt-10">Hi! This is Salil..
+        <h1 className="absolute inset-0 top-24 md:top-72 text-center text-3xl font-bold">
+        <span className="text-xl sm:text-5xl font-OnlinePrivileges md:mb-6 bg-clip-text bg-stone-600 md:mt-10">Hi! This is Salil..
         </span></h1>
     </div>
     <div className="min-h-screen p-8"> 
