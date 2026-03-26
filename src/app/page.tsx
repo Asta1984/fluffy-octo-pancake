@@ -17,16 +17,16 @@ import { workExperience } from "@/constants/workExperience"
 const ProfilePage = () => {
   return (
     <>
-    <div className="relative z-10 max-h-full">
+    <div className="relative z-10">
       <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png" ></img>
         <h1 className="absolute inset-0 top-1/3 text-center text-3xl font-bold leading-relaxed">
         <span className="text-xl sm:text-5xl font-OnlinePrivileges mb-6 bg-clip-text bg-stone-600 md:mt-10">Hi! This is Salil..
         </span></h1>
     </div>
-    <div className="absolute min-h-screen"> 
+    <div className="min-h-screen p-12"> 
       <RealisticLightspeedWarpDrive />
       <div className="relative min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
-        <div className="max-w-2xl mx-auto py-16 px-7">
+        <div className=" mx-auto py-16 px-7">
           <div className="space-y-6">
             <div>
              {/* Social Links */}
@@ -174,39 +174,37 @@ const ProfilePage = () => {
           </div>
           <TimelineDemo />
         </div>
-    <div>
+      </div>
       <AnimatedText text="Salil Mandal"/>
-    </div>
-    <div className="absolute z-20 max-h-full">
+    <div className="relative bottom-0 max-h-full">
       <img src = "https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/foot.png"></img>
-      <div className="absolute top-3/4 left-3/4 p-4 inset-0 h-min  flex gap-2 ">
+      <div className="md:absolute top-3/4 left-3/4 p-4 inset-0 h-min  md:flex gap-2 ">
               <Link 
                 href="mailto:salilmandal908@gmail.com"
-                className="p-2 rounded-md hover:bg-transparent border bg-stone-500 transition-colors duration-200"
+                className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Mail className="w-5 h-5  text-gray-300" />
+                <Mail className="md:w-5 md:h-5  text-gray-300" />
               </Link>
               <Link
                 href="https://github.com/Asta1984"
-                className="p-2 rounded-md hover:bg-transparent border bg-stone-500 transition-colors duration-200"
+                className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Github className="w-5 h-5 text-gray-300" />
+                <Github className="md:w-5 md:h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://x.com/mandal_sal88300"
-                className="p-2 rounded-md hover:bg-transparent border bg-stone-500 transition-colors duration-200"
+                className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Twitter className="w-5 h-5 text-gray-300" />
+                <Twitter className="md:w-5 md:h-5 text-gray-300" />
               </Link>
               <Link
                 href="https://www.linkedin.com/in/salil-m-3a73b1138/"
-                className="p-2 rounded-md hover:bg-transparent border bg-stone-500 transition-colors duration-200"
+                className="p-2 rounded-md hover:bg-transparent border bg-neutral-600 transition-colors duration-200"
               >
-                <Linkedin className="w-5 h-5 text-gray-300" />
+                <Linkedin className="md:w-5 md:h-5 text-gray-300" />
               </Link>
             </div>
     </div>
-      </div>
     </>
   )
 }

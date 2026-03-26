@@ -29,7 +29,7 @@ export function AnimatedText({ text, className = '' }: AnimatedTextProps) {
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.7"
-        className="font-OnlinePrivileges fill-transparent text-2xl stroke-primary"
+        className="font-OnlinePrivileges fill-transparent text-2xl stroke-zinc-800"
         strokeDasharray="1000"
         strokeDashoffset="1"
       >
