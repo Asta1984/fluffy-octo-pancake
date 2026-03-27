@@ -36,8 +36,8 @@ export function Navbar() {
   );
 
   return (
-    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center pl-6 pr-6 py-3 backdrop-blur-sm rounded-full border border-[#333] bg-[#1f1f1f57] w-auto">
-      <div className="flex items-center justify-between w-full gap-x-6 sm:gap-x-8">
+    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center pl-6 pr-6 py-3 backdrop-blur-sm rounded-full border border-[#333] bg-[#1f1f1f57] w-3/4 md:w-auto">
+      <div className="flex items-center justify-between w-full gap-x-3 h-4 md:h-auto sm:gap-x-8">
         <nav className="flex items-center space-x-6 text-sm">
           {navLinksData.map((link) => (
             <AnimatedNavLink key={link.href} href={link.href}>
