@@ -18,11 +18,7 @@ export function Navbar() {
     { label: 'Works', href: '#works' },
   ];
 
-  const ctaButtonElement = (
-    <button className="px-4 py-2 sm:px-3 text-xs sm:text-sm border border-[#333] bg-[rgba(31,31,31,0.62)] text-gray-300 rounded-full hover:border-white/50 hover:text-white transition-colors duration-200 w-full sm:w-auto">
-      Contact
-    </button>
-  );
+
 
   const ResumeButtonElement = (
     <div className="relative group w-full sm:w-auto">
@@ -36,7 +32,7 @@ export function Navbar() {
   );
 
   return (
-    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center pl-6 pr-6 py-3 backdrop-blur-sm rounded-full border border-[#333] bg-[#1f1f1f57] w-10/12 md:w-auto">
+    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center pl-6 pr-6 py-3 backdrop-blur-sm rounded-full border border-[#333] bg-[#1f1f1f57] w-auto">
       <div className="flex items-center justify-between w-full gap-x-3 h-4 md:h-auto sm:gap-x-8">
         <nav className="flex items-center space-x-6 text-sm">
           {navLinksData.map((link) => (
@@ -47,7 +43,6 @@ export function Navbar() {
         </nav>
         <div className="flex items-center gap-3">
           {ResumeButtonElement}
-          {ctaButtonElement}
         </div>
       </div>
     </header>

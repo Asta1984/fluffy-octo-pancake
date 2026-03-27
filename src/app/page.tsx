@@ -48,7 +48,7 @@ const ProfilePage = () => {
       </div>
 
       {/* Main Content */}
-      <div className="min-h-screen p-8">
+      <div className="min-h-screen p-6">
         <RealisticLightspeedWarpDrive />
 
         <div className="relative min-h-screen bg-black/20 backdrop-transparent-md border border-white/10 rounded-lg text-gray-200">
