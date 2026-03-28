@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const AnimatedNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link href={href} className="group relative overflow-hidden h-5 flex items-start text-sm">
-    <div className="flex flex-col transition-transform duration-700 ease-out transform group-hover:-translate-y-1/2">
+    <div className="flex flex-col transition-transform duration-500 ease-out transform group-hover:-translate-y-1/2">
       <span className="text-gray-300">{children}</span>
       <span className="text-white">{children}</span>
     </div>

@@ -67,6 +67,9 @@ const ProfilePage = () => {
                   exit={{ opacity: 0 }}
                 >
                   <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-gray-950 bg-opacity-75 border rounded-xl p-5 mt-6">
+                  <h1 className="text-xl pt-10 font-OnlinePrivileges mb-4 text-white">
+                    Info
+                  </h1>
                     <p>
                       I&apos;m a software Engineer with hands-on experience in building scalable, secure,
                       and innovative applications across diverse domains. My technical expertise spans
