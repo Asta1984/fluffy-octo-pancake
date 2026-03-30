@@ -1,10 +1,11 @@
 "use client"
 import React from "react";
-import { Mail, Github, Twitter, Linkedin } from "lucide-react";
+import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import RealisticLightspeedWarpDrive from '../components/realistic-lightspeed-warp-drive';
 import { TimelineDemo } from "../components/timeline";
 import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
+import Project_Card from "@/components/projects"
 import {
   Accordion,
   AccordionContent,
@@ -18,16 +19,16 @@ import { Navbar } from "@/components/ui/mini-navbar";
 const SocialLinks = ({ iconSize = "w-5 h-5", bgClass = "bg-transparent", hoverClass = "hover:bg-sky-950" }) => (
   <div className="flex gap-2">
     <Link href="mailto:salilmandal908@gmail.com" className={`p-2 rounded-md ${hoverClass} border ${bgClass} transition-colors duration-200`}>
-      <Mail className={`${iconSize} text-gray-300`} />
+      <FaEnvelope className={`${iconSize} text-gray-300`} />
     </Link>
     <Link href="https://github.com/Asta1984" className={`p-2 border rounded-md ${hoverClass} ${bgClass} transition-colors duration-200`}>
-      <Github className={`${iconSize} text-gray-300`} />
+      <FaGithub className={`${iconSize} text-gray-300`} />
     </Link>
     <Link href="https://x.com/mandal_sal88300" className={`p-2 border rounded-md ${hoverClass} ${bgClass} transition-colors duration-200`}>
-      <Twitter className={`${iconSize} text-gray-300`} />
+      <FaXTwitter className={`${iconSize} text-gray-300`} />
     </Link>
     <Link href="https://www.linkedin.com/in/salil-m-3a73b1138/" className={`p-2 border rounded-md ${hoverClass} ${bgClass} transition-colors duration-200`}>
-      <Linkedin className={`${iconSize} text-gray-300`} />
+      <FaLinkedin className={`${iconSize} text-gray-300`} />
     </Link>
   </div>
 );
@@ -156,6 +157,15 @@ const ProfilePage = () => {
                     </motion.div>
                   ))}
                 </Accordion>
+              </section>
+
+              <section id="Works2">
+                <div className="grid grid-cols-1 md:grid-cols-2">
+                 <Project_Card />
+                 <Project_Card />
+                 <Project_Card />
+                 <Project_Card />
+                </div>
               </section>
 
             </div>
