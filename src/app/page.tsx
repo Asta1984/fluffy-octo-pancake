@@ -61,16 +61,16 @@ const ProfilePage = () => {
                   exit={{ opacity: 0 }}
                 >
                   <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-gray-950 bg-opacity-75 border rounded-xl p-5 mt-6">
-                  <h1 className="text-4xl px-7 pt-10 font-OnlinePrivileges mb-8 text-white">
+                  <h1 className="text-4xl md:px-7 pt-10 font-OnlinePrivileges mb-8 text-white">
                     Info
                   </h1>
-                    <p className="px-7">
+                    <p className="md:px-7">
                       I&apos;m a software Engineer with hands-on experience in building scalable, secure,
                       and innovative applications across diverse domains. My technical expertise spans
                       Python, JavaScript, TypeScript, React, Node.js, FastAPI, and Django REST Framework,
                       where I&apos;ve delivered high-impact solutions in AI, cloud-native systems, and Web3.
                     </p>
-                    <p className="px-7">
+                    <p className="md:px-7">
                       I&apos;ve worked on projects ranging from LiDAR-based vehicle classification
                       systems to LLM-powered chatbots, healthcare platforms, crypto presale applications,
                       and real-time attendance management systems. Along the way, I&apos;ve gained strong
@@ -78,7 +78,7 @@ const ProfilePage = () => {
                       Terraform, PostgreSQL, MongoDB, Redis, and Firebase, enabling me to architect
                       end-to-end solutions with scalability in mind.
                     </p>
-                    <p className="px-7">
+                    <p className="md:px-7">
                       Beyond development, I enjoy experimenting with LLM APIs, AI/ML models,
                       and automation tools like N8N, Zapier, and AI Agents to create smarter workflows.
                       You could reach out to me via email.
@@ -90,7 +90,7 @@ const ProfilePage = () => {
               {/* Works Section */}
               <section id="works">
                 <h2 className="text-4xl px-7 pt-10 font-OnlinePrivileges mt-10 mb-4 text-white">Projects Cooked</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 p-4 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 md:p-4 gap-10">
                  <Project_Card />
                 </div>
               </section>
