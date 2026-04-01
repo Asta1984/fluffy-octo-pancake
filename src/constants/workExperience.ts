@@ -1,17 +1,52 @@
 export const workExperience = [
-  
+
     {
-      icon: "S",
-      company: "Sewantika",
-      role: "React, Shadcn, Typescript, tailwind",
-      shortdesc:
-        "Landing page for a project",
-      desc: " A holistic solution for all problemn related to complete product developemt from ideation, curation, fabrication to market delivery.",
-      bgColor: "bg-red-900",
+    icon: "P",
+    company: "Pokedex",
+    role: "React, typeScript, EC2, AXIOS ",
+    shortdesc:
+      "",
+    desc: "A Full-stack web application to view pokemon. Backend is hosted on EC2 with reverse proxy uning NGINX",
+    bgColor: "bg-purple-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/pokemon_super-engine.git",
+    webLink: "https://pokemon-super-engine.vercel.app/",
+  },
+    {
+    icon: "D",
+    company: "D-PAY",
+    role: "React, Tailwind, typeScript, Solana",
+    shortdesc:
+      "",
+    desc: "A payment gateway that enables the merchent to recieve payment though solana Blockchain in USDC irrespective of the token",
+    bgColor: "bg-cyan-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/verbose-eureka.git",
+    webLink: "https://verbose-eureka-two.vercel.app/",
+  },  
+    {
+    icon: "C",
+    company: "C L I N I K 360",
+    role: "React, Tailwind, typeScript, shadcn",
+    shortdesc:
+      "",
+    desc: "An Full-stack plateform for the Doctors and Patient.",
+    bgColor: "bg-red-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/360clinikfrontendscaling-fiesta",
+    webLink: "https://360clinikfrontendscaling-fiesta-juzx.vercel.app/",
+  },  
+    {
+      icon: "P",
+      company: "Mordern Perodic table",
+      role: "HTML, CSS, Javascript",
+      shortdesc: "My first web development project",
+      desc: "The idea was simple I could not remember the periodic table at school which push me to learn web dev and built this project.",
+      bgColor: "bg-gray-400",
       textColor: "text-white",
-      sourceCode: "",
-      webLink: "https://demosaas-crispy-guacamole-git-feb-update-salilmandals-projects.vercel.app/",
-    },  
+      sourceCode: "https://github.com/Asta1984/Periodic-table.git",
+      webLink: "https://asta1984.github.io/Periodic-table/",
+    },
     {
     icon: "H",
     company: "RAG-ChatBOT",
@@ -36,42 +71,6 @@ export const workExperience = [
     sourceCode: "https://github.com/Asta1984/AWS-kiminarimas.git",
     webLink: "https://aws-kiminarimas.vercel.app/",
   },
-  {
-    icon: "P",
-    company: "Pokedex",
-    role: "React, typeScript, EC2, AXIOS ",
-    shortdesc:
-      "",
-    desc: "A Full-stack web application to view pokemon. Backend is hosted on EC2 with reverse proxy uning NGINX",
-    bgColor: "bg-purple-700",
-    textColor: "text-white",
-    sourceCode: "https://github.com/Asta1984/pokemon_super-engine.git",
-    webLink: "https://pokemon-super-engine.vercel.app/",
-  },
-  {
-    icon: "D",
-    company: "D-PAY",
-    role: "React, Tailwind, typeScript, Solana",
-    shortdesc:
-      "",
-    desc: "A payment gateway that enables the merchent to recieve payment though solana Blockchain in USDC irrespective of the token",
-    bgColor: "bg-cyan-700",
-    textColor: "text-white",
-    sourceCode: "https://github.com/Asta1984/verbose-eureka.git",
-    webLink: "https://verbose-eureka-two.vercel.app/",
-  },  
-    {
-    icon: "C",
-    company: "C L I N I K 360",
-    role: "React, Tailwind, typeScript, shadcn",
-    shortdesc:
-      "",
-    desc: "An Full-stack plateform for the Doctors and Patient.",
-    bgColor: "bg-red-700",
-    textColor: "text-white",
-    sourceCode: "https://github.com/Asta1984/360clinikfrontendscaling-fiesta",
-    webLink: "https://360clinikfrontendscaling-fiesta-juzx.vercel.app/",
-  },  
   {
     icon: "V",
     company: "V4Fluffy",
@@ -120,17 +119,6 @@ export const workExperience = [
       webLink: "",
     },
     {
-      icon: "P",
-      company: "Mordern Perodic table",
-      role: "HTML, CSS, Javascript",
-      shortdesc: "My first web development project",
-      desc: "The idea was simple I could not remember the periodic table at school which push me to learn web dev and built this project.",
-      bgColor: "bg-gray-400",
-      textColor: "text-white",
-      sourceCode: "https://github.com/Asta1984/Periodic-table.git",
-      webLink: "https://asta1984.github.io/Periodic-table/",
-    },
-    {
       icon: "G",
       company: "GangChat",
       role: "Javascript, React, Firebase",
@@ -163,4 +151,16 @@ export const workExperience = [
       sourceCode: "",
       webLink: "",
     },
+    {
+      icon: "S",
+      company: "Sewantika",
+      role: "React, Shadcn, Typescript, tailwind",
+      shortdesc:
+        "Landing page for a project",
+      desc: " A holistic solution for all problemn related to complete product developemt from ideation, curation, fabrication to market delivery.",
+      bgColor: "bg-red-900",
+      textColor: "text-white",
+      sourceCode: "",
+      webLink: "https://demosaas-crispy-guacamole-git-feb-update-salilmandals-projects.vercel.app/",
+    },  
   ];
