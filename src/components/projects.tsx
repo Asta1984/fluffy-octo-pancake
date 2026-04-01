@@ -1,20 +1,29 @@
-import { PropertyCard } from "@/components/ui/card-3"; 
+import { ProjectCard } from "@/components/ui/card-3";
+import { workExperience } from "@/constants/workExperience"
+import { motion } from "framer-motion";
 
-const Project_Card= () => {
+const ProjectSection = () => {
   return (
-    <div className="flex h-full max-w-full items-center justify-center p-8">
-      <PropertyCard
-        imageUrl="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop"
-        name="La Brisa Vales"
-        location="Ubud, Bali, Indonesia"
-        price={980}
-        rating={4.9}
-        reviews={1982}
-        imageAlt="Luxury villa with a pool surrounded by palm trees"
-        aria-label="View details for La Brisa Vales in Ubud, Bali"
-      />
-    </div>
+  <>
+  {workExperience.slice(0,4).map((work, index) => (
+  <motion.div
+    key={index}
+    initial={{ y: 50, opacity: 0 }}
+    whileInView={{ y: 0, opacity: 1 }}
+    viewport={{ once: true, amount: 0 }}
+    transition={{ duration: 0.1, ease: "easeOut" }}
+  >
+    <ProjectCard
+      company={work.company}
+      role={work.role}
+      desc={work.desc}
+      sourceCode={work.sourceCode}
+      webLink={work.webLink}
+    />
+  </motion.div>
+  ))}
+  </>
   );
 };
 
-export default Project_Card;
+export default ProjectSection;

@@ -6,14 +6,7 @@ import { TimelineDemo } from "../components/timeline";
 import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
 import Project_Card from "@/components/projects"
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 import Link from "next/link"
-import { workExperience } from "@/constants/workExperience"
 import { Navbar } from "@/components/ui/mini-navbar";
 
 const SocialLinks = ({ iconSize = "w-5 h-5", bgClass = "bg-transparent", hoverClass = "hover:bg-sky-950" }) => (
@@ -68,16 +61,16 @@ const ProfilePage = () => {
                   exit={{ opacity: 0 }}
                 >
                   <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-gray-950 bg-opacity-75 border rounded-xl p-5 mt-6">
-                  <h1 className="text-xl pt-10 font-OnlinePrivileges mb-4 text-white">
+                  <h1 className="text-4xl px-7 pt-10 font-OnlinePrivileges mb-8 text-white">
                     Info
                   </h1>
-                    <p>
+                    <p className="px-7">
                       I&apos;m a software Engineer with hands-on experience in building scalable, secure,
                       and innovative applications across diverse domains. My technical expertise spans
                       Python, JavaScript, TypeScript, React, Node.js, FastAPI, and Django REST Framework,
                       where I&apos;ve delivered high-impact solutions in AI, cloud-native systems, and Web3.
                     </p>
-                    <p>
+                    <p className="px-7">
                       I&apos;ve worked on projects ranging from LiDAR-based vehicle classification
                       systems to LLM-powered chatbots, healthcare platforms, crypto presale applications,
                       and real-time attendance management systems. Along the way, I&apos;ve gained strong
@@ -85,7 +78,7 @@ const ProfilePage = () => {
                       Terraform, PostgreSQL, MongoDB, Redis, and Firebase, enabling me to architect
                       end-to-end solutions with scalability in mind.
                     </p>
-                    <p>
+                    <p className="px-7">
                       Beyond development, I enjoy experimenting with LLM APIs, AI/ML models,
                       and automation tools like N8N, Zapier, and AI Agents to create smarter workflows.
                       You could reach out to me via email.
@@ -96,78 +89,11 @@ const ProfilePage = () => {
 
               {/* Works Section */}
               <section id="works">
-                <h2 className="text-xl pt-10 font-OnlinePrivileges mb-4 text-white">Projects Cooked</h2>
-                <Accordion type="single" collapsible className="space-y-2">
-                  {workExperience.map((work, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ y: 50, opacity: 0 }}
-                      whileInView={{ y: 0, opacity: 1 }}
-                      viewport={{ once: true, amount: 0 }}
-                      transition={{ duration: 0.1, ease: "easeOut" }}
-                      exit={{ opacity: 0 }}
-                    >
-                      <AccordionItem
-                        value={`item-${index}`}
-                        className="border border-gray-800 rounded-lg bg-gray-950 bg-opacity-75"
-                      >
-                        <AccordionTrigger className="hover:no-underline px-4">
-                          <div className="flex items-center gap-4">
-                            <div className={`w-10 h-10 ${work.bgColor} ${work.textColor} rounded-lg flex items-center justify-center font-medium`}>
-                              {work.icon}
-                            </div>
-                            <div className="flex flex-col items-start">
-                              <div className="font-OnlinePrivileges text-white text-sm">{work.company}</div>
-                              {work.role && (
-                                <div className="text-xs text-gray-400 text-left">{work.role}</div>
-                              )}
-                            </div>
-                          </div>
-                        </AccordionTrigger>
-                        <AccordionContent className="px-4 pb-4">
-                          <div className="pl-14">
-                            <p className="text-gray-400">{work.shortdesc}</p>
-                            <br />
-                            <p className="text-gray-400">{work.desc}</p>
-                          </div>
-                          <div className="flex justify-between flex-row">
-                            <div className="pl-14">
-                              <br />
-                              {work.sourceCode && (
-                                <Link href={work.sourceCode} target="_blank" rel="noopener noreferrer">
-                                  <button className="text-white bg-gray-900 hover:bg-gray-800 p-3 rounded-md transition-colors duration-200">
-                                    Source Code
-                                  </button>
-                                </Link>
-                              )}
-                            </div>
-                            <div className="pl-14">
-                              <br />
-                              {work.webLink && (
-                                <Link href={work.webLink} target="_blank" rel="noopener noreferrer">
-                                  <button className="text-white bg-[#1F305E] hover:bg-[#284180] p-3 rounded-md transition-colors duration-200">
-                                    Website
-                                  </button>
-                                </Link>
-                              )}
-                            </div>
-                          </div>
-                        </AccordionContent>
-                      </AccordionItem>
-                    </motion.div>
-                  ))}
-                </Accordion>
-              </section>
-
-              <section id="Works2">
-                <div className="grid grid-cols-1 md:grid-cols-2">
-                 <Project_Card />
-                 <Project_Card />
-                 <Project_Card />
+                <h2 className="text-4xl px-7 pt-10 font-OnlinePrivileges mt-10 mb-4 text-white">Projects Cooked</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 p-4 gap-10">
                  <Project_Card />
                 </div>
               </section>
-
             </div>
           </div>
           <TimelineDemo />
