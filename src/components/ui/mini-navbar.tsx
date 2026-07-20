@@ -23,7 +23,7 @@ export function Navbar() {
   const ResumeButtonElement = (
     <div className="relative group w-full sm:w-auto">
       <div className="absolute inset-0 -m-2 rounded-full block bg-gray-100 opacity-40 filter blur-lg pointer-events-none transition-all duration-300 ease-out group-hover:opacity-60 group-hover:blur-xl group-hover:-m-3"></div>
-      <Link href="https://drive.google.com/file/d/1Lh_OS5Hrp6aGU4RpOaHvHVsTT1eZ3bxt/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <Link href="https://drive.google.com/file/d/1WXn0_Y58O_Nnmu6QZw6l82yNpln-igfm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <button className="relative z-10 px-4 py-2 sm:px-3 text-xs sm:text-sm font-semibold text-black bg-gradient-to-br from-gray-100 to-gray-300 rounded-full hover:from-gray-200 hover:to-gray-400 transition-all duration-200 w-full sm:w-auto">
           Resume
         </button>

@@ -1,5 +1,16 @@
 export const workExperience = [
-
+    {
+    icon: "S",
+    company: "Surabhi Alumini Portal",
+    role: "Nextjs, typeScript, postgreSQL, AXIOS",
+    shortdesc:
+      "",
+    desc: "This is a web application to record, Network and manage Alumni in educational institution",
+    bgColor: "bg-red-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/Alumini_network.git",
+    webLink: "https://alumini-network-rouge.vercel.app",
+  },
     {
     icon: "P",
     company: "Pokedex",

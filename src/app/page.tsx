@@ -10,7 +10,7 @@ import Link from "next/link"
 import { Navbar } from "@/components/ui/mini-navbar";
 
 const SocialLinks = ({ iconSize = "w-5 h-5", bgClass = "bg-transparent", hoverClass = "hover:bg-sky-950" }) => (
-  <div className="flex gap-2">
+  <div className="flex gap-2 mb-10 md:mx-52">
     <Link href="mailto:salilmandal908@gmail.com" className={`p-2 rounded-md ${hoverClass} border ${bgClass} transition-colors duration-200`}>
       <FaEnvelope className={`${iconSize} text-gray-300`} />
     </Link>
@@ -60,7 +60,7 @@ const ProfilePage = () => {
                   transition={{ duration: 1, ease: "easeOut" }}
                   exit={{ opacity: 0 }}
                 >
-                  <div className="space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-gray-950 bg-opacity-75 border rounded-xl p-5 mt-6">
+                  <div className="md:w-4/5 space-y-4 tracking-wider font-Typewriter text-gray-300 text-xs bg-slate-800 bg-opacity-75 border md:mx-auto rounded-xl p-5 mt-6">
                   <h1 className="text-4xl md:px-7 pt-10 font-OnlinePrivileges mb-8 text-white">
                     Info
                   </h1>
