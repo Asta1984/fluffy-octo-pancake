@@ -100,10 +100,10 @@ export function TimelineDemo() {
           <div>
             <p className="text-white-400 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
               <Image
-                src="/surabhi logo.png"
+                src="/surabhi logo.jpg"
                 alt="surabhi"
-                width={200}
-                height={100}
+                width={150}
+                height={50}
               />AI-ML Faculty at Surabhi Group of Institution,Bhopal.
             </p>
             <div className="grid grid-cols-2 gap-4">

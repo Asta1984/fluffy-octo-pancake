@@ -1,4 +1,16 @@
 export const workExperience = [
+      {
+    icon: "YT",
+    company: "Open Source",
+    role: "Redis, React, TypeScript, ffmpeg",
+    shortdesc:
+      "",
+    desc: "This is a web application to download videos from Youtube, it uses ffmpeg under the hood",
+    bgColor: "bg-teal-700",
+    textColor: "text-white",
+    sourceCode: "https://github.com/Asta1984/yt-down-frontend.git",
+    webLink: "https://freedown.sewantika.com",
+  },
     {
     icon: "S",
     company: "Surabhi Alumini Portal",

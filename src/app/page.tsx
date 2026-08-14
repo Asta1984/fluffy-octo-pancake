@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Image from "next/image";
 import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import RealisticLightspeedWarpDrive from '../components/realistic-lightspeed-warp-drive';
 import { TimelineDemo } from "../components/timeline";
@@ -33,7 +34,12 @@ const ProfilePage = () => {
 
       {/* Hero Section */}
       <div className="relative z-10">
-        <img src="https://pub-bb773cad98e4488d80e5473dfc75aaef.r2.dev/Cf/top.png" alt="hero banner" />
+        <Image 
+          src="https://pub-d02e3aa7d09f4d5d9261e5d7e4bae228.r2.dev/endless.webp"
+          alt="hero banner"
+          width={1536}
+          height={1024}
+        />
         <h1 className="absolute inset-0 top-24 md:top-72 text-center text-3xl font-bold">
           <span className="text-xl sm:text-5xl font-OnlinePrivileges md:mb-6 bg-clip-text bg-stone-600 md:mt-10">
             Hi! This is Salil....
