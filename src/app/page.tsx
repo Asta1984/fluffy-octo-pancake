@@ -9,7 +9,6 @@ import { AnimatedText } from "@/components/AnimatedText";
 import Project_Card from "@/components/projects"
 import Link from "next/link"
 import { Navbar } from "@/components/ui/mini-navbar";
-import ScrollIndicator from "@/components/ScrollIndicator";
 
 const SocialLinks = ({ iconSize = "w-5 h-5", bgClass = "bg-transparent/30", hoverClass = "hover:bg-zinc-900/50" }) => (
   <div className="flex gap-2 p-4 ">
