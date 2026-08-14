@@ -10,7 +10,7 @@ import Project_Card from "@/components/projects"
 import Link from "next/link"
 import { Navbar } from "@/components/ui/mini-navbar";
 
-const SocialLinks = ({ iconSize = "w-5 h-5", bgClass = "bg-transparent/30", hoverClass = "hover:bg-zinc-900/50" }) => (
+const SocialLinks = ({ iconSize = "md:w-5 md:h-5", bgClass = "bg-transparent/30", hoverClass = "hover:bg-zinc-900/50" }) => (
   <div className="flex gap-2 p-4 ">
     <Link href="mailto:salilmandal908@gmail.com" className={`p-2 rounded-md ${hoverClass} border ${bgClass} transition-colors duration-200`}>
       <FaEnvelope className={`${iconSize} text-accent`} />
@@ -61,8 +61,8 @@ const ProfilePage = () => {
                   transition={{ duration: 1, ease: "easeOut" }}
                   exit={{ opacity: 0 }}
                 >
-                  <div className="md:w-4/5 space-y-4 tracking-wider font-Typewriter text-zinc-100 text-xs bg-slate-800 bg-slate-900/40 md:mx-auto rounded-xl md:mt-6 p-5 border-accent">
-                  <h1 className="text-4xl md:px-7 pt-10 font-OnlinePrivileges mb-8 text-zinc-100">
+                  <div className="md:w-4/5 md:space-y-4 space-y-2 tracking-wider font-Typewriter text-zinc-100 text-xs bg-slate-800 bg-slate-900/40 md:mx-auto rounded-xl md:mt-6 p-5 border-accent">
+                  <h1 className="md:text-4xl text-2xl md:px-7 pt-10 font-OnlinePrivileges md:mb-8 mb-5 text-zinc-100">
                     Salil Mandal
                   </h1>
                     <p className="md:px-7">
@@ -82,7 +82,7 @@ const ProfilePage = () => {
 
               {/* Works Section */}
               <section id="works" >
-                <h2 className="text-4xl px-7 pt-10 font-OnlinePrivileges mt-10 mb-4 text-white">Projects Cooked</h2>
+                <h2 className="md:text-4xl text-2xl px-7 pt-10 font-OnlinePrivileges mt-10 mb-4 text-white">Projects Cooked</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 md:p-4 gap-10">
                  <Project_Card />
                 </div>

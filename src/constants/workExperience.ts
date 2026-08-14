@@ -1,7 +1,7 @@
 export const workExperience = [
       {
     icon: "YT",
-    company: "Open Source",
+    company: "Freedown",
     role: "Redis, React, TypeScript, ffmpeg",
     shortdesc:
       "",
