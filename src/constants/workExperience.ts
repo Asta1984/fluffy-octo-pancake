@@ -5,7 +5,7 @@ export const workExperience = [
     role: "Redis, React, TypeScript, ffmpeg",
     shortdesc:
       "",
-    desc: "This is a web application to download videos from Youtube, it uses ffmpeg under the hood",
+    desc: "This is a web application to download videos from Youtube, it uses yt-dlp under the hood",
     bgColor: "bg-teal-700",
     textColor: "text-white",
     sourceCode: "https://github.com/Asta1984/yt-down-frontend.git",
