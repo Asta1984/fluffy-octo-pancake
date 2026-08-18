@@ -61,18 +61,17 @@ const ProfilePage = () => {
                   transition={{ duration: 1, ease: "easeOut" }}
                   exit={{ opacity: 0 }}
                 >
-                  <div className="md:w-4/5 md:space-y-4 space-y-2 tracking-wider font-Typewriter text-zinc-100 text-xs bg-slate-800 bg-slate-900/40 md:mx-auto rounded-xl md:mt-6 p-5 border-accent">
-                  <h1 className="md:text-4xl text-2xl md:px-7 md:pt-10 font-OnlinePrivileges md:mb-8 mb-5 text-zinc-100">
+                  <div className="md:w-4/5 md:space-y-4 space-y-2 tracking-wider font-Typewriter text-zinc-50 text-xs bg-slate-800 bg-slate-900/40 md:mx-auto rounded-xl md:mt-6 p-5 border-accent">
+                  <h1 className="md:text-4xl text-2xl md:px-7 md:pt-10 font-OnlinePrivileges md:mb-8 mb-5 text-zinc-50">
                     Salil Mandal
                   </h1>
                     <p className="md:px-7">
-                      I&apos;m a NERD in capital letters.diverse domains.
+                      I&apos;m a tech NERD, diverse domains.
                     </p>
                     <p className="md:px-7">
                       I like to build, I have build and I will build
                     </p>
                     <p className="md:px-7">
-                      if you want me to larp, yap, build, vibecode etcetra
                       You could reach out to me via email.
                     </p>
                   </div>
