@@ -13,6 +13,7 @@ const ProjectSection = () => {
     viewport={{ once: true, amount: 0 }}
     transition={{ duration: 0.7, ease: "easeOut" }}
   >
+    
     <ProjectCard
       company={work.company}
       role={work.role}

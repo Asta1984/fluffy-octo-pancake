@@ -82,6 +82,9 @@ const ProfilePage = () => {
               {/* Works Section */}
               <section id="works" className="bg-gray-950/30 rounded-3xl">
                 <h2 className="md:text-4xl text-2xl px-7 pt-10 font-OnlinePrivileges mt-10 mb-4 text-white">Projects Cooked</h2>
+                  <p className="text-xs p-5">Some of the project listed below may not work as stated 
+                      cause $5 server may have slept
+                  </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 md:p-4 gap-10">
                  <Project_Card />
                 </div>
